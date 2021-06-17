@@ -33,6 +33,11 @@
 
 \date{University of New South Wales --- \today} % University, school and/or department name(s) and a date
 
+\newcommand\simplelrg{\hat{\beta}_{1} = \frac{\bar{XY} - \bar{X}\bar{Y}}{\bar{(X^2)} - (\bar{X})^2}}
+
+\newcommand\sumlrg{\frac{1}{n}\sum_{i=1}^{n}(}
+\newcommand\expandedlrg{\hat{\beta}_{1} = \frac{\sumlrg{}X_{i} - \bar{X})(Y_{i} - \bar{Y})}{\sumlrg{}X_{i} - \bar{X})^2}}
+
 %----------------------------------------------------------------------------------------
 
 \begin{document}
@@ -45,18 +50,39 @@
 
 \section*{Question 1} % Unnumbered section
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor arcu luctus, imperdiet urna iaculis, mattis eros. Pellentesque iaculis odio vel nisl ullamcorper, nec faucibus ipsum molestie. Sed dictum nisl non aliquet porttitor. Etiam vulputate arcu dignissim, finibus sem et, viverra nisl. Aenean luctus congue massa, ut laoreet metus ornare in. Nunc fermentum nisi imperdiet lectus tincidunt vestibulum at ac elit. Nulla mattis nisl eu malesuada suscipit.
+\subsection*{a)}
 
-% Math equation/formula
+We know from the normal equations for a the gradient of a minimised linear regression is:
+
+\begin{equation*}
+	\simplelrg{}
+\end{equation*}
+
+Which can expand into:
+
+\begin{equation*}
+	\expandedlrg{}
+\end{equation*}
+
+So now substituting in the transformation, we get:
+
 \begin{equation}
-	I = \int_{a}^{b} f(x) \; \text{d}x.
+	\hat{\beta}_{1} = \frac{\sumlrg{}\tilde{X}_{i} - \bar{X})(Y_{i} - \bar{Y})}{\sumlrg{}\tilde{X}_{i} - \bar{X})^2}
+\end{equation}
+\begin{equation}
+	\hat{\beta}_{1} = \frac{\sumlrg{}c(X_{i} + d) - \bar{X})(Y_{i} - \bar{Y})}{\sumlrg{}c(X_{i} + d) - \bar{X})^2}
+\end{equation}	
+\begin{equation}
+	...
 \end{equation}
 
-Aliquam arcu turpis, ultrices sed luctus ac, vehicula id metus. Morbi eu feugiat velit, et tempus augue. Proin ac mattis tortor. Donec tincidunt, ante rhoncus luctus semper, arcu lorem lobortis justo, nec convallis ante quam quis lectus. Aenean tincidunt sodales massa, et hendrerit tellus mattis ac. Sed non pretium nibh. Donec cursus maximus luctus. Vivamus lobortis eros et massa porta porttitor.
+\subsection*{b)}
 
-\begin{info} % Information block
-	This is an interesting piece of information, to which the reader should pay special attention. Fusce varius orci ac magna dapibus porttitor. In tempor leo a neque bibendum sollicitudin. Nulla pretium fermentum nisi, eget sodales magna facilisis eu. Praesent aliquet nulla ut bibendum lacinia. Donec vel mauris vulputate, commodo ligula ut, egestas orci. Suspendisse commodo odio sed hendrerit lobortis. Donec finibus eros erat, vel ornare enim mattis et.
-\end{info}
+
+
+% \begin{info} % Information block
+% 	This is an interesting piece of information, to which the reader should pay special attention. Fusce varius orci ac magna dapibus porttitor. In tempor leo a neque bibendum sollicitudin. Nulla pretium fermentum nisi, eget sodales magna facilisis eu. Praesent aliquet nulla ut bibendum lacinia. Donec vel mauris vulputate, commodo ligula ut, egestas orci. Suspendisse commodo odio sed hendrerit lobortis. Donec finibus eros erat, vel ornare enim mattis et.
+% \end{info}
 
 %----------------------------------------------------------------------------------------
 %	PROBLEM 1
