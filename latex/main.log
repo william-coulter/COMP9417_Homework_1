@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.10)  17 JUN 2021 18:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.10)  17 JUN 2021 19:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1031,20 +1031,26 @@ LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 53.
  [1
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/williamcoulter/Documents/COMP9417/homework_1/latex/main.aux) ) 
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<../python/outputs//q2a_pairplots.png, id=17, 1626.075pt x 1626.075pt>
+File: ../python/outputs//q2a_pairplots.png Graphic file (type png)
+<use ../python/outputs//q2a_pairplots.png>
+Package pdftex.def Info: ../python/outputs//q2a_pairplots.png  used on input line 87.
+(pdftex.def)             Requested size: 455.2979pt x 455.2979pt.
+ [2 </Users/williamcoulter/Documents/COMP9417/homework_1/latex/../python/outputs//q2a_pairplots.png>] (/Users/williamcoulter/Documents/COMP9417/homework_1/latex/main.aux) ) 
 Here is how much of TeX's memory you used:
- 19106 strings out of 478994
- 352317 string characters out of 5858184
- 647549 words of memory out of 5000000
- 36182 multiletter control sequences out of 15000+600000
+ 19114 strings out of 478994
+ 352556 string characters out of 5858184
+ 647573 words of memory out of 5000000
+ 36187 multiletter control sequences out of 15000+600000
  450665 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  138i,6n,141p,921b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/xcharter/xch_rydp4l.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on /Users/williamcoulter/Documents/COMP9417/homework_1/latex/main.pdf (1 page, 154827 bytes).
+Output written on /Users/williamcoulter/Documents/COMP9417/homework_1/latex/main.pdf (2 pages, 329897 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 50 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

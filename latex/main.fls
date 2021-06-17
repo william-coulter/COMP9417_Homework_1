@@ -697,6 +697,7 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/mdframed/md-frame-1.mdf
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
@@ -967,6 +968,11 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/public/xcharter/XCharter-Bold-
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/xcharter/XCharter-Bold-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/public/xcharter/XCharter-Roman-tlf-t1.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/xcharter/XCharter-Roman-tlf-t1--base.tfm
+INPUT /Users/williamcoulter/Documents/COMP9417/homework_1/latex/../python/outputs//q2a_pairplots.png
+INPUT /Users/williamcoulter/Documents/COMP9417/homework_1/latex/../python/outputs//q2a_pairplots.png
+INPUT /Users/williamcoulter/Documents/COMP9417/homework_1/latex/../python/outputs//q2a_pairplots.png
+INPUT /Users/williamcoulter/Documents/COMP9417/homework_1/latex/../python/outputs//q2a_pairplots.png
+INPUT /Users/williamcoulter/Documents/COMP9417/homework_1/latex/../python/outputs//q2a_pairplots.png
 INPUT /Users/williamcoulter/Documents/COMP9417/homework_1/latex/main.aux
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/xcharter/xch_rydp4l.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb
