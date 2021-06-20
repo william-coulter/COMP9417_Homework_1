@@ -72,11 +72,77 @@ So now substituting in the transformation, we get:
 \begin{equation}
 	\hat{\beta}_{1} = \frac{\sumlrg{}c(X_{i} + d) - \bar{X})(Y_{i} - \bar{Y})}{\sumlrg{}c(X_{i} + d) - \bar{X})^2}
 \end{equation}
+
+and expand:
+
 \begin{equation}
-	...
+	\hat{\beta}_{1} = \frac{\sumlrg{}c*X_{i} + c*d - \bar{X})(Y_{i} - \bar{Y})}{\sumlrg{}c*X_{i} + c*d - \bar{X})^2}
 \end{equation}
 
+\begin{equation}
+	\hat{\beta}_{1} = \frac{\sumlrg{}c*X_{i} + c*d - \bar{X})(Y_{i} - \bar{Y})}{\sumlrg{}c*X_{i} + c*d - \bar{X})^2}
+\end{equation}
+
+I expanded this on paper and could not work out how to represent it in terms of the original expression.
+
 \subsection*{b)}
+
+So we have:
+
+\begin{equation*}
+	\expandedlrg{}
+\end{equation*}
+
+Let "t" be the number of treatments and "T" be the set in [1..n] corresponding to the data point in which a treatment was supplied (i.e equals 1).
+
+Likewise, let "p" the number of placebo and "P" be the set in [1..n] corresponding to the data point in which a placebo was supplied (i.e equals 0).
+
+Note that T union P makes up the complete set of [1..n].
+
+\begin{equation*}
+	\hat{\beta}_{1} = 
+		\frac{
+			\frac{1}{n}\sum_{i\in{T}}^{n}(1-\frac{t}{n})(Y_{i} - \frac{\bar{Y_T}*t+\bar{Y_P}(n-t)}{n})+
+			\frac{1}{n}\sum_{i\in{P}}^{n}(0-\frac{t}{n})(Y_{i} - \frac{\bar{Y_T}*t+\bar{Y_P}(n-t)}{n})
+		}{
+			\frac{1}{n}\sum_{i=1}^{n}(n-t)^2(-\frac{t}{n})+
+			(t)(1-\frac{t}{n})^2
+		}
+\end{equation*}
+\newpage
+
+Now lets remove the sigma for terms which aren't dependant on "i".
+
+\begin{equation*}
+	\hat{\beta}_{1} = 
+		\frac{
+			\frac{n-t}{n^2}\sum_{i\in{T}}^{n}(Y_{i} - \frac{\bar{Y_T}*t+\bar{Y_P}(n-t)}{n})+
+			\frac{-t}{n^2}\sum_{i\in{P}}^{n}(Y_{i} - \frac{\bar{Y_T}*t+\bar{Y_P}(n-t)}{n})
+		}{
+			\frac{1}{n}(n)(n-t)^2(-\frac{t}{n})+
+			(t)(1-\frac{t}{n})^2
+		}
+\end{equation*}
+
+and simplify:
+
+\begin{equation*}
+	\hat{\beta}_{1} = 
+		\frac{
+			\frac{n-t}{n^2}\sum_{i\in{T}}^{n}(Y_{i} - \frac{\bar{Y_T}*t+\bar{Y_P}(n-t)}{n})+
+			\frac{-t}{n^2}\sum_{i\in{P}}^{n}(Y_{i} - \frac{\bar{Y_T}*t+\bar{Y_P}(n-t)}{n})
+		}{
+			t(1-n) + t^2(2-\frac{2}{n}) + t^3(\frac{1}{n^2}-\frac{1}{n})
+		}
+\end{equation*}
+
+This is an expression for B1 in terms of the group means but there is an additional term "t". I was hoping this would cancel out.
+
+An expression for B0 would be:
+
+\begin{equation*}
+	\hat{\beta}_{0} = \bar{Y} - \hat{\beta}_{1}\bar{X}
+\end{equation*}
 
 \newpage
 \section*{Question 2}
@@ -160,7 +226,6 @@ all of the coefficients are set to 0 when the penalty reaches a high enough valu
 For features X3, X4 and X5, when one of them has a non-zero value, the other 
 2 are often set to 0.
 
-\newpage
 \subsection*{f)}
 
 The main difference between LASSO and Ridge was that some of the coefficients found in LASSO
