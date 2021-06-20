@@ -49,6 +49,8 @@ np_matrix = np.array(sum_of_squares_scaled).T
 
 # convert to dataframe
 final_scaled_df = pd.DataFrame(data=np_matrix, columns=X_columns)
+# Add "Y" back on
+final_scaled_df["Y"] = df["Y"]
 # print(final_scaled_df.head())
 
 # save to csv for later
@@ -57,6 +59,9 @@ final_scaled_df.to_csv("./data/transformed_data.csv", index=False)
 # Now for the question, print out the sum of squares
 print("Sum of squares for each transformed feature:")
 for column_name in final_scaled_df:
+    if column_name == "Y":
+        continue
+        
     column = final_scaled_df[column_name].tolist()
 
     sum_of_squares = 0

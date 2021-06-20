@@ -17,3 +17,4 @@ scikit-learn = "0.24.2"
 [scripts]
 q2a = "python3 ./scripts/q2a.py"
 q2b = "python3 ./scripts/q2b.py"
+q2c = "python3 ./scripts/q2c.py"
