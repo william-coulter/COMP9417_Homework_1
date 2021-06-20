@@ -160,6 +160,16 @@ all of the coefficients are set to 0 when the penalty reaches a high enough valu
 For features X3, X4 and X5, when one of them has a non-zero value, the other 
 2 are often set to 0.
 
+\newpage
+\subsection*{f)}
+
+The main difference between LASSO and Ridge was that some of the coefficients found in LASSO
+were 0. What this means is that a particular feature has no effect on a predicted output.
+This is why I prefer LASSO because often in a dataset with many features, some of them 
+will not correlate whatsover to the output and the model needs the freedom to recognise this, otherwise
+then models runs a risk of overfitting to the sample data and is more likely to make false predictions when presented
+with other data.
+
 %%%%%%%%%%%%%%%%%%%%%
 
 
