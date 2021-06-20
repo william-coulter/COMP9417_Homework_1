@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.10)  20 JUN 2021 22:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.6.10)  20 JUN 2021 23:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1158,23 +1158,35 @@ File: ../python/outputs//q2c.png Graphic file (type png)
 <use ../python/outputs//q2c.png>
 Package pdftex.def Info: ../python/outputs//q2c.png  used on input line 135.
 (pdftex.def)             Requested size: 416.27133pt x 312.2035pt.
- [4 </Users/williamcoulter/Documents/COMP9417/homework_1/latex/../python/outputs//q2c.png>] [5] [6] (/Users/williamcoulter/Documents/COMP9417/homework_1/latex/main.aux)
+ [4 </Users/williamcoulter/Documents/COMP9417/homework_1/latex/../python/outputs//q2c.png>]
+<../python/outputs//q2e_code.png, id=53, 758.835pt x 822.07124pt>
+File: ../python/outputs//q2e_code.png Graphic file (type png)
+<use ../python/outputs//q2e_code.png>
+Package pdftex.def Info: ../python/outputs//q2e_code.png  used on input line 151.
+(pdftex.def)             Requested size: 379.41658pt x 411.0346pt.
+ [5 </Users/williamcoulter/Documents/COMP9417/homework_1/latex/../python/outputs//q2e_code.png>]
+<../python/outputs//q2e.png, id=60, 462.528pt x 346.896pt>
+File: ../python/outputs//q2e.png Graphic file (type png)
+<use ../python/outputs//q2e.png>
+Package pdftex.def Info: ../python/outputs//q2e.png  used on input line 156.
+(pdftex.def)             Requested size: 416.27133pt x 312.2035pt.
+ [6 </Users/williamcoulter/Documents/COMP9417/homework_1/latex/../python/outputs//q2e.png>] (/Users/williamcoulter/Documents/COMP9417/homework_1/latex/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25074 strings out of 478994
- 440617 string characters out of 5858184
+ 25085 strings out of 478994
+ 440949 string characters out of 5858184
  741103 words of memory out of 5000000
- 42051 multiletter control sequences out of 15000+600000
+ 42061 multiletter control sequences out of 15000+600000
  457393 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  138i,6n,141p,921b,353s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/xcharter/xch_rydp4l.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/xcharter/XCharter-Bold.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/xcharter/XCharter-Roman.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on /Users/williamcoulter/Documents/COMP9417/homework_1/latex/main.pdf (6 pages, 497810 bytes).
+Output written on /Users/williamcoulter/Documents/COMP9417/homework_1/latex/main.pdf (6 pages, 630070 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

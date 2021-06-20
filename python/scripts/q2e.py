@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.linear_model import Ridge
+from sklearn.linear_model import Lasso
 
 penalties = [0.01, 0.1, 0.5, 1, 1.5, 2, 5, 10, 20, 30, 50, 100, 200, 300]
 
@@ -12,7 +12,7 @@ X_columns = df.drop(labels="Y", axis="columns").columns
 # Create a model for each penalty and store coeffs
 coeffs = []
 for penalty in penalties:
-    model = Ridge(alpha=penalty)
+    model = Lasso(alpha=penalty)
     model.fit(df.drop(labels="Y", axis="columns"), df["Y"])
     coeffs.append(model.coef_)
 
@@ -34,5 +34,5 @@ ax.legend()
 
 plt.xlabel("penalties")
 plt.ylabel("coefficients")
-plt.title("Ridge coefficients for each penalty (Ridge)")
-plt.savefig("./outputs/q2c.png")
+plt.title("Ridge coefficients for each penalty (LASSO)")
+plt.savefig("./outputs/q2e.png")

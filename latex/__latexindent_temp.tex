@@ -136,15 +136,29 @@ The following graph is yielded:
 
 As a general trend, the variance in the coefficients decreases as the penalty 
 for the Ridge regression is increased. Also, by penalty=300, the coefficients are 
-clustered around 0. In particular for X3, X4 and X5, these were positively
+clustered around 0, but do not equal 0. In particular for X3, X4 and X5, these were positively
 correlated variables and their magnitudes in coefficients were quick to 
 reduce as the penalty increased.
 
-\newpage
-\subsection*{d)}
+% \newpage
+% \subsection*{d)}
 
 \newpage
 \subsection*{e)}
+
+Code used (also see in repository \href{https://github.com/william-coulter/COMP9417_Homework_1/tree/master/python}{here}):
+
+\includegraphics[scale=0.5]{q2e_code.png}
+
+\newpage
+The following graph is yielded:
+
+\includegraphics[scale=0.9]{q2e.png}
+
+The first observation made is that coefficients are often set to 0. It's kind of funny to note that 
+all of the coefficients are set to 0 when the penalty reaches a high enough value.
+For features X3, X4 and X5, when one of them has a non-zero value, the other 
+2 are often set to 0.
 
 %%%%%%%%%%%%%%%%%%%%%
 
