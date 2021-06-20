@@ -1,1 +1,3 @@
-# COMP9417_Homework_1
+# COMP9417 Homework Set
+
+Just a homework set for the first assignment
