@@ -5,3 +5,7 @@ install:
 .PHONY : q2a
 q2a: install
 	python3 -m pipenv run q2a
+
+.PHONY : q2b
+q2b: install
+	python3 -m pipenv run q2b

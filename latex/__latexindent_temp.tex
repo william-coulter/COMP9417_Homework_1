@@ -81,12 +81,52 @@ So now substituting in the transformation, we get:
 \newpage
 \section*{Question 2}
 
-See Github repository here for all of the python code used in this question.
+See Github repository \href{https://github.com/william-coulter/COMP9417_Homework_1/tree/master/python}{here} for all of the python code used in this question.
 
 \subsection*{a)}
-\includegraphics[scale=0.280]{q2a_pairplots.png}
+\begin{verbatim}
+	import pandas as pd
+	import seaborn as sns
+	import matplotlib.pyplot as plt
+	
+	df = pd.read_csv("./data/data.csv")
+	sns.pairplot(df)
+	plt.savefig("./outputs/q2a_pairplots.png")
+\end{verbatim}
+\includegraphics[scale=0.270]{q2a_pairplots.png}
+
+The pairs plots shows a scatter plots between variables in the dataset, while
+the histogram on the diagonal shows the distribution of each variable. 
+For example, the plot on the fourth row in the second column is the scatter plot of X3
+on the y-axis and X2 on the x-axis. Such a matrix is useful for seeing correlations between 
+variables. This is important in linear regression to prevent multicollinearity between the 
+variables, which can skew the coefficients of the regression model and lead to unreliable
+statistical inferences.
+
+\newpage
+\subsection*{b)}
+
+The code in \textbf{q2b.py} will produce:
+
+\begin{verbatim}
+	Sum of squares for each transformed feature:
+	X1: 38.000000000000014
+	X2: 38.0
+	X3: 38.000000000000014
+	X4: 37.999999999999986
+	X5: 37.99999999999998
+	X6: 38.0
+	X7: 38.00000000000001
+	X8: 37.999999999999986
+\end{verbatim}
+
+These should all be 38 exactly however they are not due to floating point errors.
+
+\subsection*{c)}
 
 
+
+%%%%%%%%%%%%%%%%%%%%%
 
 
 % \begin{info} % Information block
